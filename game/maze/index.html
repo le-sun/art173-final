@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+    <script src="assets/p5.collide2d.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <nav class="nav">
+      <ul>
+        <li>
+        <li class="drop"><a href="#">Settings</a>
+          <ul class="dropdown">
+            <li><a href="#">
+              <label for="inp" class="inp">
+                <input type="text" id="name_i" placeholder="Insert Name">
+                <button id="name_s"> Submit </button>
+                <span class="border"></span>
+              </label>
+            </a></li>
+            <li><a href="#">
+              <label for="inp" class="inp">
+                <input type="text" id="red_i" placeholder="Change Red">
+                <input type="text" id="green_i" placeholder="Change Green">
+                <input type="text" id="blue_i" placeholder="Change Blue">
+                <button id="color_s"> Submit </button>
+                <span class="border"></span>
+              </label>  
+            </a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
+
+
+
